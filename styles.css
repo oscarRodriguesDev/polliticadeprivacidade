@@ -24,9 +24,17 @@ p {
 }
 
 /* Estilo para as listas */
-ul, ol {
+ul {
     margin-bottom: 15px;
 }
+
+li{
+    list-style-type:upper-alpha;
+    color:#343b46;
+    margin:10px 2px;
+}
+
+
 
 /* Estilo para o rodapé */
 footer {
