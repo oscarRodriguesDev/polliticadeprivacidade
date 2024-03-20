@@ -1,70 +1,63 @@
-/* Estilo para o corpo da página */
+/* Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo para o container principal */
+/* Estilos para o contêiner principal */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Estilo para o título */
-.title h1 {
+/* Estilos para os títulos */
+h1 {
     color: #333;
 }
 
-/* Estilo para os parágrafos */
+h2 {
+    color: #555;
+}
+
+h3 {
+    color: #777;
+}
+
+h4 {
+    color: #999;
+}
+
+/* Estilos para os parágrafos */
 p {
     margin-bottom: 15px;
-    line-height: 1.6;
 }
 
-/* Estilo para as listas */
-ul {
+/* Estilos para as listas */
+ul, ol {
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 
-li{
-    list-style-type:upper-alpha;
-    color:#343b46;
-    margin:10px 2px;
-}
-
-
-
-/* Estilo para o rodapé */
-footer {
-    background-color: #f4f4f4;
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* Estilo para o rodapé - texto de copyright */
-footer p {
-    color: #666;
-    font-size: 14px;
-}
-
-/* Estilo para a seção DPO */
-.infoDPO {
+/* Estilos para a classe dados-dpo */
+/* Estilos para a classe dados-dpo */
+.dados-dpo {
     background-color: #f9f9f9;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
     margin-top: 20px;
 }
 
-/* Estilo para o título da seção DPO */
-.infoDPO h5 {
+.dados-dpo h5 {
+    margin: 5px 0;
     color: #333;
-    font-size: 16px;
-    margin-bottom: 10px;
 }
 
-/* Estilo para os detalhes de contato na seção DPO */
-.infoDPO p {
-    color: #666;
-    margin-bottom: 5px;
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
 }
