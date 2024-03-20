@@ -33,6 +33,22 @@ h4 {
 p {
     margin-bottom: 15px;
 }
+/* Estilos para a classe pseudo-menu */
+.pseudo-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pseudo-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para hover */
+.pseudo-menu li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
 
 /* Estilos para as listas */
 ul, ol {
@@ -43,6 +59,8 @@ ul, ol {
 /* Estilos para a classe dados-dpo */
 /* Estilos para a classe dados-dpo */
 .dados-dpo {
+    display:flex;
+    flex-direction: column;
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 5px;
